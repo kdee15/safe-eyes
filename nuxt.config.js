@@ -59,17 +59,6 @@ export default {
   modules: [
     "@blokwise/dynamic",
     "@nuxtjs/style-resources",
-    '@nuxtjs/axios',
-    ['nuxt-mail', {
-      smtp: {
-        host: 'smtp.gmail.com',
-        port: 587,
-        auth: {
-          user: '',
-          pass: ''
-        },
-      },
-    }],
   ],
 
   publicRuntimeConfig: {
