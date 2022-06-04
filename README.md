@@ -1,20 +1,9 @@
-# safe-eyes
+This is the Next.js starter site (and course files) for the Next.js & Contentful tutorial by the Net Ninja.
 
-## Build Setup
+## Getting Started
+
+To use the starter project, run the following in a terminal:
 
 ```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+npx create-next-app [your-site-name] -e https://github.com/iamshaunjp/next-contentful/tree/lesson-1-starter-site
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
