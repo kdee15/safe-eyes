@@ -24,8 +24,8 @@ export async function getStaticProps() {
   return {
     props: {
       Page: resPage,
-      mainNavigation: resPage[0].fields.components[0].fields,
-      heroBanner: resPage[0].fields.components[1].fields,
+      // mainNavigation: resPage[0].fields.components[0].fields,
+      heroBanner: resPage[0].fields.components[0].fields,
       // profileKurt: resPage[0].fields.components[2].fields,
       // profileCompany: resPage[0].fields.components[3].fields,
       // servicesList: resServices,
@@ -36,7 +36,7 @@ export async function getStaticProps() {
 
 export default function Recipes({
   Page,
-  mainNavigation,
+  // mainNavigation,
   heroBanner,
   // servicesList,
   // profileKurt,
@@ -44,6 +44,7 @@ export default function Recipes({
 }) {
   // const Services = servicesList.items;
   console.log("Page", Page);
+  console.log("heroBanner", heroBanner);
   return (
     <div>
       <ComponentHeroBanner heroBanner={heroBanner} />
