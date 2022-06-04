@@ -44,7 +44,6 @@ export default function Recipes({
 }) {
   // const Services = servicesList.items;
   console.log("Page", Page);
-  console.log("heroBanner", heroBanner);
   return (
     <div>
       <ComponentHeroBanner heroBanner={heroBanner} />
